@@ -140,4 +140,22 @@ const data = await res.json();
 console.log(data);
 ```
 
+```
+const getLastPost = async function () {
+  const res = await fetch('https://jsonplaceholder.typicode.com/posts');
+  //   console.log(res);
+  const data = await res.json();
+  //   console.log(data);
+  return { title: data.at(-1).title, text: data.at(-1).body };
+};
+//Method 1: not very clean
+// const lastPost = getLastPost();
+// lastPost.then(last => console.log(last));
+// console.log(lastPost);
+
+//method 2
+const lastPost = await getLastPost();
+console.log(lastPost);
+```
+
 - `It however blocks the entire execution of the module now.`
