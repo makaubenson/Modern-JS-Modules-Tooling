@@ -9,13 +9,13 @@ export const cart = [];
 //   console.log(`${quantity} ${product} added to cart`);
 // };
 
-// //export multiple things.
-// const totalPrice = 237;
-// const totalQuantity = 23;
+// // //export multiple things.
+const totalPrice = 237;
+const totalQuantity = 23;
 
-// export { totalPrice, totalQuantity };
+export { totalPrice, totalQuantity };
 
-//default export
+// default export
 export default function (product, quantity) {
   cart.push(product, quantity);
   console.log(`${quantity} ${product} added to cart`);

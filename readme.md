@@ -10,7 +10,7 @@
 - Joining all our modules into one big file.
 - It eliminates unused code and compress our code as well.
 - `This process is important since:`
-- Browsers dont support modules at all, and thus if not bundled, browsers may find it hard to executed the code in the modules.
+- Browsers dont support modules at all, and thus if not bundled, browsers may find it hard to execute the code in the modules.
 - It better for perfomance to sell less code to the server for execution.
 
 ## Transpilling / Polyfilling
@@ -166,3 +166,12 @@ console.log(lastPost);
 - This creates `package.json`. This files is the one that stores the entire configuration of the project.
 
 - To install package write `npm install <package>`
+- For this case, we will use `parcel` as our module bundler.
+
+### Using parcel
+
+- `npm i parcel --save-dev`- Installing parcel as a devDependancy.
+
+- To use parcel when locally installed, we either use `npx` or `npm scripts`
+
+- To run parcel `npx parcel index.html`
