@@ -118,8 +118,12 @@ export default function (product, quantity) {
 - we can give it any name we want.
 
 ```
-import add from './shoppingCart.js';
-add('Breads', 5);//5 Breads added to cart
+import add, { cart } from './shoppingCart.js';
+
+add('Breads', 5);
+add('Sugar', 3);
+add('Apples', 15);
+console.log(cart);
 ```
 
 ### Note: Imports are not copies of exports, instead they are like a live connection. i.e, they point to the same place in memory.

@@ -15,9 +15,9 @@
 // console.log(ShoppingCart.totalPrice, ShoppingCart.totalQuantity);
 
 //importing default export
-import add, { cart } from './shoppingCart.js';
+// import add, { cart } from './shoppingCart.js';
 
-add('Breads', 5);
-add('Sugar', 3);
-add('Apples', 15);
-console.log(cart);
+// add('Breads', 5);
+// add('Sugar', 3);
+// add('Apples', 15);
+// console.log(cart);
