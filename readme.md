@@ -38,8 +38,12 @@
 - Allows us to reuse same code across multiple projects.
 
 ## Native Js ES6 Modules
-
-
 - These are modules stored in files, exactly one module per file.
+- 
+![js modules](https://user-images.githubusercontent.com/59168713/181179516-53454a35-9f20-4e1e-897f-2f0cab13b108.png)
+
+### Imports and Exports
+
+![import](https://user-images.githubusercontent.com/59168713/181179593-34ef160a-a89a-434c-b6d5-69de0e87ca16.png)
 
 
