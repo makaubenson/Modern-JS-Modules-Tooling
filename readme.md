@@ -36,3 +36,7 @@
 - They make it easy to abstract our code.
 - Lead to a more organized code.
 - Allows us to reuse same code across multiple projects.
+
+## Native Js ES6 Modules
+
+- These are modules stored in files, exactly one module per file.
