@@ -101,3 +101,25 @@ console.log(ShoppingCart.totalPrice, ShoppingCart.totalQuantity);
 ```
 
 ### default exports
+
+- we use default exports when we want to export just one thing per module.
+
+```
+export default function (product, quantity) {
+  cart.push(product, quantity);
+  console.log(`${quantity} ${product} added to cart`);
+}
+```
+
+- No names for exported things.
+
+#### importing default export
+
+- we can give it any name we want.
+
+```
+import add from './shoppingCart.js';
+add('Breads', 5);//5 Breads added to cart
+```
+
+### Note: Imports are not copies of exports, instead they are like a live connection. i.e, they point to the same place in memory.
