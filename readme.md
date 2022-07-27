@@ -47,3 +47,57 @@
 ![import](https://user-images.githubusercontent.com/59168713/181179593-34ef160a-a89a-434c-b6d5-69de0e87ca16.png)
 
 - No need to use `strict` mode since all modules are executed in strict mode by default.
+
+## Exports
+
+- In ES6 modules there are 2 types of exports:
+
+### named exports
+
+- Simplest way of exporting smth from a module by just putting `export` infront of anything we many need to export.
+
+```
+export const addToCart = function (product, quantity) {
+  cart.push(product, quantity);
+  console.log(`${quantity} ${product} added to cart`);
+};
+```
+
+- Importing the above export
+- `import { addToCart } from './shoppingCart.js';`
+
+#### Exporting multiple variables
+
+```
+const totalPrice = 237;
+const totalQuantity = 23;
+
+export { totalPrice, totalQuantity };
+```
+
+- Importing multiple exports
+- `import { addToCart, totalPrice, totalQuantity } from './shoppingCart.js';`
+
+- Change name of import variable
+
+```
+import {
+  addToCart,
+  totalPrice as price,
+  totalQuantity,
+} from './shoppingCart.js';
+```
+
+- Change name of export variable
+- `export { totalPrice, totalQuantity as tq };`
+- On the import now, `tq` will be used.
+
+#### Importing all the exports of a module
+
+```
+import \* as ShoppingCart from './shoppingCart.js';
+ShoppingCart.addToCart('bread', 5);
+console.log(ShoppingCart.totalPrice, ShoppingCart.totalQuantity);
+```
+
+### default exports
