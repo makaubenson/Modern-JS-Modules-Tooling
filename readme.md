@@ -159,3 +159,10 @@ console.log(lastPost);
 ```
 
 - `It however blocks the entire execution of the module now.`
+
+## Node Package Manager (NPM)
+
+- To use NPM we need to initialize it first.(npm init)
+- This creates `package.json`. This files is the one that stores the entire configuration of the project.
+
+- To install package write `npm install <package>`

@@ -1,0 +1,23 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "- We ussually divide our code into modules for easy management. - There even 3rd party modules existing in the internet (found in the npm repo) - Once development is done, the code should then be converted into one javascript bundle(through a build process) which is then taken to production. - To create the javascript bundle, there are a few processes entailed:",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makaubenson/Modern-JS-Modules-Tooling.git"
+  },
+  "author": "Benson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/makaubenson/Modern-JS-Modules-Tooling/issues"
+  },
+  "homepage": "https://github.com/makaubenson/Modern-JS-Modules-Tooling",
+  "dependencies": {
+    "leaflet": "^1.8.0",
+    "lodash-es": "^4.17.21"
+  }
+}
