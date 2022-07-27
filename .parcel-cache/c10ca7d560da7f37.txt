@@ -1,5 +1,5 @@
 4902
-135/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/dist/index.8cfc62b9.js.map1658921706953403150 0
+135/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/dist/index.8cfc62b9.js.map1658923457520164562 0
 119/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/.gitignore1658915906370891828 0
 144/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/.bin/browserslist-lint1658916713153359212 0
 133/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/.bin/parcel1658916713153359212 0
@@ -7,7 +7,7 @@
 133/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/.bin/semver1658916713153359212 0
 168/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/.bin/node-gyp-build-optional-packages-optional1658916713153359212 0
 146/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/dom-serializer/README.md1658916704090025388 0
-113/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/dist1658921706976736484 1
+113/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/dist1658923457536831230 1
 158/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/dom-serializer/lib/foreignNames.d.ts1658916704206692061 0
 155/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/dom-serializer/lib/index.d.ts.map1658916704023358717 0
 149/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/dom-serializer/lib/index.js1658916703846692041 0
@@ -1784,7 +1784,7 @@
 144/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/json5/lib/unicode.d.ts1658916706056692162 0
 154/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/update-browserslist-db/README.md1658916704290025399 0
 140/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/json5/lib/index.js1658916705553358800 0
-131/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/dist/index.8cfc62b9.js1658921706930069815 0
+131/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/dist/index.8cfc62b9.js1658923457446831225 0
 145/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/dotenv-expand/README.md1658916705503358798 0
 172/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/caniuse-lite/data/features/css-text-orientation.js1658916707636692246 0
 143/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/lodash-es/isBuffer.js1658915015460843640 0
@@ -3098,7 +3098,7 @@
 162/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/leaflet/src/map/handler/Map.TouchZoom.js1658914445420812809 0
 127/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/clone1658916705583358802 1
 164/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/caniuse-lite/data/features/script-async.js1658916708986692320 0
-118/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/script.js1658921649453400038 0
+118/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/script.js1658922902926801222 0
 143/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/node-releases/LICENSE1658916704110025389 0
 155/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/@parcel/runtime-react-refresh/src1658916708230025612 1
 149/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/lodash-es/_mapCacheClear.js1658915014177510238 0
@@ -3124,7 +3124,7 @@
 182/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/aliased1658916707683358916 1
 148/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/lodash-es/isSafeInteger.js1658915015590843648 0
 138/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/msgpackr/pack.js1658916705930025488 0
-121/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/package.json1658916713743359243 0
+121/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/package.json1658923999530193935 0
 147/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/@parcel/markdown-ansi/lib1658916705900025486 1
 173/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/htmlnano/lib/modules/collapseAttributeWhitespace.js1658916705090025442 0
 149/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/dom-serializer/node_modules1658916701523358582 1
@@ -3844,7 +3844,7 @@
 167/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/caniuse-lite/data/features/css-paged-media.js1658916707456692237 0
 163/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/@parcel/core/lib/requests/AssetRequest.js1658916710860025754 0
 168/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/caniuse-lite/data/features/childnode-remove.js1658916706613358858 0
-118/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/readme.md1658917297966724158 0
+118/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/readme.md1658923572373504109 0
 161/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/caniuse-lite/data/features/classlist.js1658916706646692193 0
 179/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/@parcel/workers/test/integration/workerfarm/master-sum.js1658916706890025540 0
 138/home/benson/Information Technology/Projects/complete-javascript-course/17-Modern-JS-Modules-Tooling/starter/node_modules/lodash-es/ary.js1658915014774176936 0

@@ -2,9 +2,10 @@
   "name": "starter",
   "version": "1.0.0",
   "description": "- We ussually divide our code into modules for easy management. - There even 3rd party modules existing in the internet (found in the npm repo) - Once development is done, the code should then be converted into one javascript bundle(through a build process) which is then taken to production. - To create the javascript bundle, there are a few processes entailed:",
-  "main": "script.js",
+  "source": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",

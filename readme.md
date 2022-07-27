@@ -174,4 +174,11 @@ console.log(lastPost);
 
 - To use parcel when locally installed, we either use `npx` or `npm scripts`
 
+#### npx
+
 - To run parcel `npx parcel index.html`
+
+#### npm scripts
+
+- `"start": "parcel index.html"`
+- writing a script like the line above in package.json.
