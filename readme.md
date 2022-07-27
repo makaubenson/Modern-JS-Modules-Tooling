@@ -23,3 +23,16 @@
 - `webpack` is the most popular but difficult to configure.
 - `parcel` - zero config bundler that works out of the box. We dont write any setup code.
 - These tools are also on npm.
+
+## Modules
+
+- A module is a reusable piece of code that encapuslates implimentation details of a certain part of a our project.
+- Its a standalone file, but not always the case.
+- We can import of export some values in a module.
+- The exported values are referred to as a public API.
+- Dependancies are those imported.
+- Modules are important building blocks which can be put together to build complex apps.
+- Modules can be developed in complete isolation.
+- They make it easy to abstract our code.
+- Lead to a more organized code.
+- Allows us to reuse same code across multiple projects.
