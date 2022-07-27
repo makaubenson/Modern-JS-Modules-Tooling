@@ -127,3 +127,17 @@ console.log(cart);
 ```
 
 ### Note: Imports are not copies of exports, instead they are like a live connection. i.e, they point to the same place in memory.
+
+## Top Level Await
+
+- We can now use `await` keyword outside `async` function in `modules`.
+
+```
+const res = await fetch('https://jsonplaceholder.typicode.com/posts');
+// console.log(res);
+
+const data = await res.json();
+console.log(data);
+```
+
+- `It however blocks the entire execution of the module now.`
