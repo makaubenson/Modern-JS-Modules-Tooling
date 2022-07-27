@@ -181,4 +181,38 @@ console.log(lastPost);
 #### npm scripts
 
 - `"start": "parcel index.html"`
+- `"build": "parcel build index.html"`
 - writing a script like the line above in package.json.
+
+## Transpilling and Polyfilling
+
+- Basically we would have to configure barbel but parcel already supports it so no need to configure.
+
+## Transpilling
+
+- Transpiling is the process of interpreting certain programming languages and translating it to a specific target language. In this context, transpiling will take compile-to-JS languages and translate them into the target language of Javascript.
+- The features available in common JavaScript applications (Chrome, Firefox, NodeJS, etc.) often lag behind the latest ECMAScript specifications (ES6/ES2015, ES7/ES2016, etc.). Once a specification has been approved, it will most certainly be available natively in future versions of JavaScript applications.
+- Rather than waiting for new JavaScript releases, engineers can start writing code that will run natively in the future (future-proofing) by using a compiler to convert code written for newer specifications into code compatible with existing applications. Common transpilers include Babel and Google Traceur.
+
+### Note: Newer features are not able to be transpilled as of today, thus we have to polyfile them
+
+## Polyfilling (use libraries such as)
+
+- A polyfill is a piece of code (usually JavaScript on the Web) used to provide modern functionality on older browsers that do not natively support it.
+
+```
+import 'core-js/stable';
+```
+
+#### polyfilling specific js features(methods, promises etc)
+
+```
+ import 'core-js/stable/array/find';
+ import 'core-js/stable/promise';
+```
+
+#### polyfilling async functions
+
+```
+import 'regenerator-runtime/runtime';
+```
